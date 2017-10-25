@@ -1,0 +1,25 @@
+{
+    "name": "ashur/chokecherry",
+    "description": "A Cranberry\\Shell project template",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cranberry/shell"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Ashur Cabrera",
+            "email": "hello@cabreramade.co"
+        }
+    ],
+    "require": {
+        "cranberry/shell": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chokecherry\\": "src/"
+        }
+    }
+}

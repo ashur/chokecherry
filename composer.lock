@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d4c75dac41501e5c045fc08abc9b916f",
+    "content-hash": "d310c388fcabe7c9e48e6ddd19d853fa",
+    "packages": [
+        {
+            "name": "cranberry/shell",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cranberry/shell.git",
+                "reference": "5d91ee6440ac9b141d04c66b53413a916f61d541"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cranberry/shell/zipball/5d91ee6440ac9b141d04c66b53413a916f61d541",
+                "reference": "5d91ee6440ac9b141d04c66b53413a916f61d541",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cranberry\\Shell\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ashur Cabrera",
+                    "email": "hello@cabreramade.co"
+                }
+            ],
+            "description": "A small CLI application library.",
+            "homepage": "https://github.com/cranberry/shell",
+            "support": {
+                "source": "https://github.com/cranberry/shell/tree/develop",
+                "issues": "https://github.com/cranberry/shell/issues"
+            },
+            "time": "2017-10-15 21:53:58"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "cranberry/shell": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
